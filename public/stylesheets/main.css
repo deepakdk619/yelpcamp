@@ -1,0 +1,31 @@
+.card {
+    width: 100%;
+    /*height: 300px;*/
+    box-shadow: 0px 2px 7px grey;
+    margin-top: 20px;
+    border: 3px solid white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+.card-image img {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#show-thumbnail {
+    padding: 0;
+}
+#show-thumbnail img{
+    width: 100%;
+}
+
+#delete-form {
+    display: inline;
+}
